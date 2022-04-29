@@ -12,7 +12,7 @@ npm install
 #### Para iniciar um projeto:
 ```
 npm init
-renomeie seu orojeto e confirme as demais perguntas
+renomeie seu projeto e confirme as demais perguntas
 test command: npx cypress open 
 ```
   
