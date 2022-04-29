@@ -34,7 +34,7 @@ npx i -D mochawesome
 
 ![image](https://user-images.githubusercontent.com/70979408/166079915-2381720d-67e8-4744-a4b2-faa949d16bdc.png)
 
-- Agora execute novamente informando o repoter:
+- Agora execute novamente informando o reporter:
 
 ```
 npx cypress run --reporter mochawesome
