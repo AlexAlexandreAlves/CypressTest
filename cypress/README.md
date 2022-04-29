@@ -30,5 +30,15 @@ npx cypress run
 ```
 npx i -D mochawesome
 ```  
-Ajuste o arquivo cypress.json conforme a imagem:
-![image](https://user-images.githubusercontent.com/70979408/166079858-793a0fe2-fb93-4c2f-93e5-8ecd6f4256b7.png)
+- Ajuste o arquivo cypress.json conforme a imagem:
+
+{
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": true,
+        "html": true,
+        "json": false,
+        "timestamp": "mmddyyyy_HHMMss"
+    }
+}
