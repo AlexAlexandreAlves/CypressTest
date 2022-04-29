@@ -1,8 +1,8 @@
-#### Se for iniciar um projeto do zero, ou somente instalar o cypress, siga este passo a passo:
+### Se for iniciar um projeto do zero, ou somente instalar o cypress, siga este passo a passo:
 
 ##### Pré-requisitos 
-- **NodeJS**
-- **npm**
+- NodeJS
+- npm
 
 ##### Se não tiver o node instalado:
 ```
