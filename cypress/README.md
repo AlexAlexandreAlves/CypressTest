@@ -1,6 +1,6 @@
 <h4> Se for iniciar um projeto do zero, siga este passo a passo:
 
-<h3> Pré-requisitos
+<h3> Pré-requisitos <h3>
 - **NodeJS**
 - **npm**
 
