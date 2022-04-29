@@ -26,10 +26,16 @@ npm run test
 ```
 npx cypress run
 ```  
-#### Para gerar o relatório de testes em HTML instale:
+#### Para gerar o relatório de testes em HTML gerando uma evidência em video instale:
 ```
 npx i -D mochawesome
 ```  
 - Ajuste o arquivo cypress.json conforme a imagem:
 
 ![image](https://user-images.githubusercontent.com/70979408/166079915-2381720d-67e8-4744-a4b2-faa949d16bdc.png)
+
+- Agora execute novamente informando o repoter:
+
+```
+npx cypress run --reporter mochawesome
+```  
