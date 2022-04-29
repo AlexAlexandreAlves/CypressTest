@@ -22,7 +22,13 @@ npm i cypress --save-dev
 npm run test
 ```  
 
-#### Para executar o Cypress sem abrir interface gráfica
+#### Para executar o Cypress sem abrir interface gráfica:
 ```
 npx cypress run
 ```  
+#### Para gerar o relatório de testes em HTML instale:
+```
+npx i -D mochawesome
+```  
+Ajuste o arquivo cypress.json conforme a imagem:
+![image](https://user-images.githubusercontent.com/70979408/166079858-793a0fe2-fb93-4c2f-93e5-8ecd6f4256b7.png)
