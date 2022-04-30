@@ -39,3 +39,14 @@ npx i -D mochawesome
 ```
 npx cypress run --reporter mochawesome
 ```  
+
+### Conectando ao Dashboard do Cypress
+- Faça loggin no inicializador do Cypress
+- Crie um projeto 
+- Pare a execução no vcscode
+- Verifique que será gerado um projectId no arquivo cypress.json
+- execute o npx cypress run com o código gerado do seu projeto.
+0
+```
+npx cypress run --record --key 4236179e-c6ab-49f8-8d0f-0d096bad41d9
+```
