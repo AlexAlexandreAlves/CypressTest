@@ -46,7 +46,7 @@ npx cypress run --reporter mochawesome
 - Pare a execução no vcscode
 - Verifique que será gerado um projectId no arquivo cypress.json
 - execute o npx cypress run com o código gerado do seu projeto.
-0
+
 ```
 npx cypress run --record --key 4236179e-c6ab-49f8-8d0f-0d096bad41d9
 ```
