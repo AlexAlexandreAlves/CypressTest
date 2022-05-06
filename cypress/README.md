@@ -13,15 +13,18 @@ npm install
 ```
 npm init
 renomeie seu projeto e confirme as demais perguntas
-test command: npx cypress open 
 ```
   
-#### Para instalar e iniciar o Cypress:
+#### Para instalar e iniciar a primeira vez o Cypress:
 ```
 npm i cypress --save-dev
+test command: npx cypress open 
 npm run test
 ```  
-
+#### Para iniciar pode utilizar também:
+```
+npm run test
+```  
 #### Para executar o Cypress sem abrir interface gráfica:
 ```
 npx cypress run
